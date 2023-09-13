@@ -15,6 +15,7 @@ import datetime
 def index(request):
     movies = Movie.objects.filter(is_active = True,is_home= True)
     slider = get_list_or_404(Slider)
+    print(slider)
   
     return render(request,'index.html',{
         'movies':movies,
