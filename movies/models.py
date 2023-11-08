@@ -1,6 +1,3 @@
-from ast import mod
-from tabnanny import verbose
-from turtle import mode
 from django.db import models
 from django.core.validators import MinLengthValidator
 from ckeditor.fields import RichTextField
